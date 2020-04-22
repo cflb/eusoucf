@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'http://eusou.cf',
-    'http://ec2-3-135-232-234.us-east-2.compute.amazonaws.com'
+    'http://ec2-3-135-232-234.us-east-2.compute.amazonaws.com',
+    'ec2-3-135-232-234.us-east-2.compute.amazonaws.com'
 ]
 
 
