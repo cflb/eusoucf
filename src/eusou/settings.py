@@ -26,8 +26,7 @@ SECRET_KEY = 'l44=-)1ma69@eep16!(yxb5#5gql&t&s6r&1m5#_sy$2*!8p6r'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'http://eusou.cf',
-    'http://ec2-3-135-232-234.us-east-2.compute.amazonaws.com',
+    'eusou.cf',
     'ec2-3-135-232-234.us-east-2.compute.amazonaws.com'
 ]
 
