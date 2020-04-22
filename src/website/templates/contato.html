@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block csscustom %}
+
+{% endblock csscustom %}
+
+{% block content %}
+<h5 class="center white-text">Escrave-me alguma coisa!</h5>
+    <p></p>
+<div class="row container">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col l6 s12 m6">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">Nome completo ou apelido</label>
+        </div>
+        <div class="input-field col l6 s12 m6">
+          <input id="last_name" type="email" class="validate">
+          <label for="last_name">E-mail de contato</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col l12 s12 m12">
+            <textarea id="first_name" type="text" class="materialize-textarea validate"></textarea>
+          <label for="first_name">Escreva-me</label>
+        </div>
+      </div>
+      <button class="waves-effect waves-light btn-small white-text grey darken-4">Envie-me</button>
+    </form>
+</div>
+{% endblock content %}
+
+
